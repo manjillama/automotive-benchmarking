@@ -1,0 +1,104 @@
+{
+  "collectionName": "components_entities_specifications",
+  "info": {
+    "displayName": "specifications"
+  },
+  "options": {},
+  "attributes": {
+    "typeOfMotor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "peakPower": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "continuousPower": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "motorToRareWheelDriveType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "batteryType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "batteryVoltage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "groundClearanceOfBatteryCasing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "chargerSpecifications": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "dimensionsOfAdaptor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "steeringLockToLockAngle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "sprungMass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "unsprungMass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "staticLoadRadius": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "pcdOfDisk": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "centerOfGravity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "steeringForkPitchDistance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "batteryCapacity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "motorTorque": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "bootSpace": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}

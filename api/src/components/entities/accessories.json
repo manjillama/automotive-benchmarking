@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_entities_accessories",
+  "info": {
+    "displayName": "Accessories"
+  },
+  "options": {},
+  "attributes": {
+    "centerStand": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "helmet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "key": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}

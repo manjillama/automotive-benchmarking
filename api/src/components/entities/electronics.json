@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_entities_electronics",
+  "info": {
+    "displayName": "electronics"
+  },
+  "options": {},
+  "attributes": {
+    "displayUnit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "usbChargingPort": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "vehicleSwitchOn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "handThrottle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "handleLock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "seatLock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "hornSwitch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "sideStandSensor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}

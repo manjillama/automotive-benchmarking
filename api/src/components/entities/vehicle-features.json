@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_entities_vehicle_features",
+  "info": {
+    "displayName": "vehicleFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "hillHold": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "cruiseControl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "driveMode": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "parkAssist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}

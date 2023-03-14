@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_entities_generic_schemas",
+  "info": {
+    "displayName": "genericSchema",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "chassis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "swingarm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "brakingSystem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.braking-system"
+    },
+    "accessories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.accessories"
+    },
+    "headlampType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "taillampType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "indicatorType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "bootSpace": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "licensePlateLight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "electronics": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.electronics"
+    },
+    "vehicleFeatures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.vehicle-features"
+    },
+    "seatAssembly": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}

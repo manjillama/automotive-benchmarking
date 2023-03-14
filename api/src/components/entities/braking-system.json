@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_entities_braking_systems",
+  "info": {
+    "displayName": "brakingSystem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "typeOfBrake": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "typeOfBrakeActuation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "frontBrakeType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    },
+    "rareBrakeType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "entities.generic-schema"
+    }
+  }
+}
