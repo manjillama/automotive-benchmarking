@@ -1,7 +1,8 @@
 {
   "collectionName": "components_entities_specifications",
   "info": {
-    "displayName": "specifications"
+    "displayName": "specifications",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -91,11 +92,6 @@
       "component": "entities.generic-schema"
     },
     "motorTorque": {
-      "type": "component",
-      "repeatable": false,
-      "component": "entities.generic-schema"
-    },
-    "bootSpace": {
       "type": "component",
       "repeatable": false,
       "component": "entities.generic-schema"

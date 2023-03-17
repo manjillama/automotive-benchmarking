@@ -20,7 +20,10 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["videos", "images"]
+      "allowedTypes": [
+        "videos",
+        "images"
+      ]
     },
     "feature": {
       "type": "component",
@@ -36,7 +39,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
