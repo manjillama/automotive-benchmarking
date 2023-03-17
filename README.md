@@ -12,9 +12,7 @@ Automotive benchmarking app. Just a fun little project I created for no particul
 - Navigate to `api` folder. Copy the `example.env` and save as `.env`. Update the variables. In the project directory, you can run:
 
 ```bash
-  # install dependencies
   yarn install
-  # create .zip file
   yarn develop
 ```
 
@@ -26,10 +24,8 @@ Open [http://localhost:3008](http://localhost:3008) to view it in the browser.
 - Navigate to `app` folder. Copy the `example.env` and save as `.env`. Update the variables. In the project directory, you can run:
 
 ```bash
-  # install dependencies
   yarn install
-  # create .zip file
-  yarn deve
+  yarn dev
 ```
 
 Runs the app in the development mode.\
