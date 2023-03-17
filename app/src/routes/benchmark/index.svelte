@@ -40,13 +40,3 @@
 		</div>
 	</div>
 {/if}
-
-<!-- <div style="overscroll-behavior: contain;">
-	<div class="sticky top-0">
-		<div class="container mx-auto scroller w-max">
-			<div class="scroller w-max py-6">
-				<BenchmarkAttributes />
-			</div>
-		</div>
-	</div>
-</div> -->
