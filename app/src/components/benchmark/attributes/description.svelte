@@ -12,7 +12,7 @@
 			Description
 		</div>
 		{#each descriptions as description}
-			<div style="width:450px" class="shrink-0 px-2">{description || 'NA'}</div>
+			<div style="width:450px" class="shrink-0 px-2 whitespace-pre-line">{description || 'NA'}</div>
 		{/each}
 	</div>
 {/if}
