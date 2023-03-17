@@ -8,6 +8,6 @@
 </script>
 
 <Accordion target="Chassis">
-	<Description descriptions={products.map((product) => product.feature?.chassis?.description)} />
-	<Media medias={products.map((product) => product.feature?.chassis?.media)} />
+	<Description descriptions={products.map((product) => product.attributes?.feature?.chassis?.description)} />
+	<Media productsMedias={products.map((product) => product.attributes?.feature?.chassis?.media?.data)} />
 </Accordion>

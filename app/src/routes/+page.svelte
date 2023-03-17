@@ -8,11 +8,10 @@
 	$: auth = $AuthStore as AuthStoreType;
 </script>
 
-<div class="bg-white">
+<div class="bg-white pb-8">
 	{#if !auth}
 		<Login />
 	{:else}
 		<Benchmark />
 	{/if}
 </div>
-<Footer />

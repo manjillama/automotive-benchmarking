@@ -26,7 +26,7 @@
 		class="w-full mb-2"
 	>
 		<div class="border p-4 {targetStyleClass} flex items-center bg-gray-200">
-			<div class="mr-2">{target}</div>
+			<div class="mr-2 font-semibold">{target}</div>
 			<i class="transition-all fas fa-chevron-down {isOpened && 'rotate-180'}" />
 		</div>
 	</div>

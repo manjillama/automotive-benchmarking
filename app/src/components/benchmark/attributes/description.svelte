@@ -5,7 +5,10 @@
 
 {#if descriptions}
 	<div class="flex no-wrap py-2">
-		<div style="width:{nestedLevel > 0 ? '204' : '252'}px" class="{nestedLevel > 0 ? 'ml-24' : 'ml-12'} shrink-0">
+		<div
+			style="width:{nestedLevel > 0 ? '204' : '252'}px"
+			class="{nestedLevel > 0 ? 'ml-24' : 'ml-12'} shrink-0 font-semibold"
+		>
 			Description
 		</div>
 		{#each descriptions as description}

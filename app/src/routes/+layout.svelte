@@ -1,16 +1,18 @@
 <script lang="ts">
 	import 'tw-elements';
 	import { browserGet, get } from '$lib/req_util';
+	// import '$lib/assets/syncscroll.js';
 	import { onMount } from 'svelte';
 	import '../app.css';
 	import { AuthStore } from '../Store';
+	import Loader from '../components/loader.svelte';
 
 	let fetching = true;
 
 	onMount(() => {
 		const jwt = browserGet('token');
 		if (jwt)
-			get('http://localhost:1337/api/users/me')
+			get('/users/me')
 				.then((user: any) => {
 					AuthStore.set({ jwt, ...user });
 				})
@@ -25,7 +27,7 @@
 </script>
 
 {#if fetching}
-	<h1>Loading</h1>
+	<Loader />
 {:else}
 	<slot />
 {/if}

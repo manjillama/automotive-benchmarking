@@ -1,4 +1,5 @@
 import { browser } from '$app/environment';
+import { PUBLIC_API_URL } from '$env/static/public';
 
 export function browserGet(key: string) {
 	if (browser) return localStorage.getItem(key);
@@ -32,7 +33,7 @@ async function requestBuilder<T>(requestMethod: 'GET' | 'POST' | 'PATCH' | 'PUT'
 			body,
 			headers
 		};
-		const res = await fetch(url, options);
+		const res = await fetch(PUBLIC_API_URL + url, options);
 		const json = await res.json();
 		if (json.error) {
 			customError = true;

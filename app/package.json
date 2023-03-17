@@ -34,6 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"qs": "^6.11.1",
+		"svelte-lightbox": "^1.1.1",
 		"tw-elements": "^1.0.0-beta1"
 	}
 }

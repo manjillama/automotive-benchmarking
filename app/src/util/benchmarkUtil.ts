@@ -22,6 +22,7 @@ export const query = qs.stringify(
 			'feature.electronics.usbChargingPort.media',
 			'feature.electronics.vehicleSwitchOn.media',
 			'feature.electronics.handThrottle.media',
+			'feature.electronics.handleLock.media',
 			'feature.electronics.seatLock.media',
 			'feature.electronics.hornSwitch.media',
 			'feature.electronics.sideStandSensor.media',
@@ -31,6 +32,8 @@ export const query = qs.stringify(
 			'feature.vehicleFeatures.seatAssembly.media',
 			'feature.vehicleFeatures.bootSpace.media',
 			'feature.vehicleFeatures.cruiseControl.media',
+			'feature.seatAssembly.media',
+			'feature.bootSpace.media',
 			'specifications.typeOfMotor.media',
 			'specifications.peakPower.media',
 			'specifications.continuousPower.media',
@@ -48,6 +51,8 @@ export const query = qs.stringify(
 			'specifications.centerOfGravity.media',
 			'specifications.steeringForkPitchDistance.media',
 			'specifications.batteryCapacity.media',
+			'specifications.motorTorque.media',
+			'specifications.bootSpace.media',
 			'cad.media'
 		]
 	},

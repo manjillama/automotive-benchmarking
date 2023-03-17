@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+	font-size: 14px;
+}
+
+.previous-button.svelte-w1dh06 {
+	right: auto !important;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+}
+.next-button.svelte-1a1bwoj {
+	right: 28px !important;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+}
+.arrow.svelte-w1dh06 {
+	stroke: #fff !important;
+}
+.arrow.svelte-1a1bwoj {
+	stroke: #fff !important;
+}

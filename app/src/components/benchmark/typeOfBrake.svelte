@@ -10,7 +10,10 @@
 <Accordion target="Type of brake" targetStyleClass="ml-12">
 	<Description
 		nestedLevel={1}
-		descriptions={products.map((product) => product.feature?.brakingSystem?.typeOfBrake?.description)}
+		descriptions={products.map((product) => product.attributes?.feature?.brakingSystem?.typeOfBrake?.description)}
 	/>
-	<Media nestedLevel={1} medias={products.map((product) => product.feature?.brakingSystem?.typeOfBrake?.media)} />
+	<Media
+		nestedLevel={1}
+		productsMedias={products.map((product) => product.attributes?.feature?.brakingSystem?.typeOfBrake?.media?.data)}
+	/>
 </Accordion>

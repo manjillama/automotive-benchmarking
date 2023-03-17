@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import type { IProduct } from './interfaces/IProduct';
 
 export interface IAuth {
 	jwt: string;
@@ -12,5 +13,6 @@ export interface IAuth {
 export type AuthStoreType = IAuth | null;
 
 const AuthStore = writable<AuthStoreType>(null);
+const ProductsStore = writable<IProduct[]>([]);
 
-export { AuthStore };
+export { AuthStore, ProductsStore };

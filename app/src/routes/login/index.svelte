@@ -10,7 +10,7 @@
 		e.preventDefault();
 		error = '';
 		submitting = true;
-		post<IAuth>('http://localhost:1337/api/auth/local', {
+		post<IAuth>('/auth/local', {
 			identifier: email,
 			password
 		})
@@ -28,6 +28,7 @@
 </script>
 
 <div class="max-w-screen-sm mx-auto py-8 px-4">
+	<h1 class="font-extrabold text-4xl my-6">Namastey</h1>
 	<form class="flex flex-col space-y-4" on:submit={handleLogin}>
 		{#if error}
 			<p class="bg-rose-600 p-2 text-white">{error}</p>
@@ -41,7 +42,7 @@
 			bind:value={password}
 			required
 		/>
-		<button class="p-2 bg-teal-500 text-white relative disabled:opacity-70" type="submit" disabled={submitting}>
+		<button class="p-2 bg-sky-600 text-white relative disabled:opacity-70" type="submit" disabled={submitting}>
 			{#if submitting}
 				<div role="status" class="absolute">
 					<svg
